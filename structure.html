@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Fredoka", sans-serif;
+        }
+
+
+
+        body {
+            height: 100dvh;
+            width: 100dvw;
+            overflow: hidden;
+        }
+
+        .main {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            color: #5CA1AD;
+        }
+
+        .title {
+            font-size: 10em;
+            padding: .5em .3em .3em;
+        }
+
+        .timer {
+            font-size: 23em;
+            font-weight: 400;
+        }
+
+        .title,
+        .timer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="title">
+            <div>INTERMISSION</div>
+        </div>
+        <div class="timer">
+            <span>20</span>
+            <span style="margin-top: -.2em;">:</span>
+            <span>00</span>
+        </div>
+    </div>
+</body>
+
+</html>
